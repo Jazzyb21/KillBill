@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace KillBillLibrary
@@ -50,6 +51,8 @@ namespace KillBillLibrary
 
             Weapon weaponP = weaponsPlayer[randNbr];
 
+            Thread.Sleep(125);
+
             return weaponP;
 
         }
@@ -70,6 +73,8 @@ namespace KillBillLibrary
 
             Weapon weapon = weapons[randNbr];
 
+            Thread.Sleep(100); // delay the random pick to make sure opponenet and player doesn't get the same weapon
+
             return weapon;
 
         }
@@ -77,11 +82,16 @@ namespace KillBillLibrary
         public static Opponent GetOpponent()
         {
 
-            Opponent orenIshii = new Opponent(DeadlyViperAssassinationSquad.ORen, 70, 35, 1, 1, GetWeaponOpponent(), 3, 8);
-            Opponent vernitaGreen = new Opponent(DeadlyViperAssassinationSquad.Vernita, 40, 30, 5, 10, GetWeaponOpponent(), 1, 5);
-            Opponent bud = new Opponent(DeadlyViperAssassinationSquad.Budd, 20, 30, 2, 8, GetWeaponOpponent(), 2, 6);
-            Opponent elle = new Opponent(DeadlyViperAssassinationSquad.Elle, 80, 55, 6, 9, GetWeaponOpponent(), 5, 9);
-            Opponent bill = new Opponent(DeadlyViperAssassinationSquad.Bill, 90, 60, 5, 10, GetWeaponOpponent(), 7, 9);
+            
+            Opponent orenIshii = new Opponent(70, 35, 1, 1, GetWeaponOpponent(), 3, 8, DeadlyViperAssassinationSquad.ORen);
+           
+            Opponent vernitaGreen = new Opponent(40, 30, 5, 10, GetWeaponOpponent(), 1, 5, DeadlyViperAssassinationSquad.Vernita);
+           
+            Opponent bud = new Opponent(20, 30, 2, 8, GetWeaponOpponent(), 2, 6, DeadlyViperAssassinationSquad.Budd);
+            
+            Opponent elle = new Opponent(80, 55, 6, 9, GetWeaponOpponent(), 5, 9, DeadlyViperAssassinationSquad.Elle);
+            
+            Opponent bill = new Opponent(90, 60, 5, 10, GetWeaponOpponent(), 7, 9, DeadlyViperAssassinationSquad.Bill);
 
             Opponent[] opponents = { orenIshii, vernitaGreen, bud, elle, bill };
 

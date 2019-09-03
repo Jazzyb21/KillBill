@@ -1,0 +1,2 @@
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\obj\Debug\OpponentLibrary.csprojAssemblyReference.cache
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\obj\Debug\OpponentLibrary.csproj.CoreCompileInputs.cache

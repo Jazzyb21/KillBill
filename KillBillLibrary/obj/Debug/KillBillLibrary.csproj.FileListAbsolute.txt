@@ -1,0 +1,12 @@
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBillLibrary\bin\Debug\KillBillLibrary.dll
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBillLibrary\bin\Debug\KillBillLibrary.pdb
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBillLibrary\obj\Debug\KillBillLibrary.csprojAssemblyReference.cache
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBillLibrary\obj\Debug\KillBillLibrary.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBillLibrary\obj\Debug\KillBillLibrary.dll
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBillLibrary\obj\Debug\KillBillLibrary.pdb
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\KillBillLibrary\obj\Debug\KillBillLibrary.csprojAssemblyReference.cache
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\KillBillLibrary\obj\Debug\KillBillLibrary.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\KillBillLibrary\obj\Debug\KillBillLibrary.dll
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\KillBillLibrary\obj\Debug\KillBillLibrary.pdb
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\KillBillLibrary\bin\Debug\KillBillLibrary.dll
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\KillBillLibrary\bin\Debug\KillBillLibrary.pdb

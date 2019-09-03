@@ -32,7 +32,7 @@ namespace KillBillApplication
                 //TODO 4. create opponent info, randomly select one, if player beats three opponents advance to the ulitmate battle against BIll
                 // create an instance of every oppponent and put them into method and store them in an array to randomly select one
                 Opponent opponent = GetRandom.GetOpponent();
-                Console.WriteLine("\nBeatrix vs. {0}", opponent.Name);
+                Console.WriteLine("\nBeatrix vs. {0}", opponent.OpponentName);
                 
 
                 //5. creating loop for the menu

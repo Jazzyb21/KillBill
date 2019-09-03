@@ -33,18 +33,9 @@ namespace KillBillLibrary
             Block = block;
             Life = life;
             EquippedWeapon = equippedWeapon;
-        }
-
-        //without name
-        public Character(int hitChance, int block, int life, int maxLife, Weapon equippedWeapon)
-        {
-            MaxLife = maxLife;
-            HitChance = hitChance;
-            Block = block;
-            Life = life;
-            EquippedWeapon = equippedWeapon;
             
         }
+
 
         public virtual int CalcBlock()
         {
