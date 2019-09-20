@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillBillApplication", "Kill
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillBillLibrary", "KillBillLibrary\KillBillLibrary.csproj", "{73EB19E5-C556-46CE-B636-BFBF75B39A5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpponentLibrary", "OpponentLibrary\OpponentLibrary.csproj", "{39DD372F-009E-4876-8BE7-0FB190B24F18}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{73EB19E5-C556-46CE-B636-BFBF75B39A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73EB19E5-C556-46CE-B636-BFBF75B39A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73EB19E5-C556-46CE-B636-BFBF75B39A5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{39DD372F-009E-4876-8BE7-0FB190B24F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39DD372F-009E-4876-8BE7-0FB190B24F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39DD372F-009E-4876-8BE7-0FB190B24F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39DD372F-009E-4876-8BE7-0FB190B24F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

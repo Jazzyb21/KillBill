@@ -41,13 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bill.cs" />
+    <Compile Include="Budd.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="Combat.cs" />
-    <Compile Include="DeadlyViperAssassinationSquad.cs" />
+    <Compile Include="Elle.cs" />
     <Compile Include="GetRandom.cs" />
     <Compile Include="Opponent.cs" />
+    <Compile Include="Oren.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vernita.cs" />
     <Compile Include="Weapon.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

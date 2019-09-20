@@ -20,7 +20,7 @@ namespace OpponentLibrary
         {
             string description = "\nBudd: Code-name, Sidewinder. Bud is recognized by Bill as\"the only man her ever loved\"." +
                                 " Budd's choice of weapon is a shotgun and is very strategic.";
-            return base.ToString() + "\nDescription: " + description;
+            return base.ToString() + "\nDescription: " + "\n" + description;
         }
     }
 }

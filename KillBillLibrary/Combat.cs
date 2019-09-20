@@ -24,20 +24,21 @@ namespace KillBillLibrary
 
                 //assign the damage
                 defender.Life -= damageDealt;
+                
 
                 //write result to the screen
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("{0} hit {1} for {2} damage!", attacker.Name, defender.Name, damageDealt);
                 Console.ResetColor();
 
-            }
+        }
             else
             {
                 
-                Console.WriteLine("{0} missed!", attacker.Name); // won't print opponents name 
+                Console.WriteLine("{0} missed!", attacker.Name); 
                
             }
-        }
+}
 
         public static void DoBattle(Player player, Opponent opponent)
         {

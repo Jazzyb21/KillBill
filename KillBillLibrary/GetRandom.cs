@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using OpponentLibrary;
 
 namespace KillBillLibrary
 {
@@ -38,7 +39,7 @@ namespace KillBillLibrary
 
         public static Weapon GetWeaponPlayer()
         {
-            Weapon hanzoSword = new Weapon("Hatorri Hanzo Sword", 3, 7, 10);
+            Weapon hanzoSword = new Weapon("Hatorri Hanzo Sword", 3, 7, 9);
             Weapon blackMamba = new Weapon("Black Mamba", 8, 10, 8);
             Weapon fivePtExplodingHeart = new Weapon("Five Point Exploding Death Heart", 10, 10, 10);
             Weapon kaboomCereal = new Weapon("Kaboom Cereal", 3, 5, 5);
@@ -62,7 +63,7 @@ namespace KillBillLibrary
         {
             Weapon hanzoSword = new Weapon("Hatorri Hanzo Sword", 3, 7, 6);
             Weapon blackMamba = new Weapon("Black Mamba", 8, 10, 2);
-            Weapon fivePtExplodingHeart = new Weapon("Five Point Exlpoding Death Heart", 10, 10, 10);
+            Weapon fivePtExplodingHeart = new Weapon("Five Point Exploding Death Heart", 10, 10, 10);
             Weapon kaboomCereal = new Weapon("Kaboom Cereal", 3, 5, 4);
             Weapon threeInchPunch = new Weapon("Three Inch Punch", 1, 3, 4);
 
@@ -82,18 +83,17 @@ namespace KillBillLibrary
         public static Opponent GetOpponent()
         {
 
-            
-            Opponent orenIshii = new Opponent(70, 35, 1, 1, GetWeaponOpponent(), 3, 8, DeadlyViperAssassinationSquad.ORen);
-           
-            Opponent vernitaGreen = new Opponent(40, 30, 5, 10, GetWeaponOpponent(), 1, 5, DeadlyViperAssassinationSquad.Vernita);
-           
-            Opponent bud = new Opponent(20, 30, 2, 8, GetWeaponOpponent(), 2, 6, DeadlyViperAssassinationSquad.Budd);
-            
-            Opponent elle = new Opponent(80, 55, 6, 9, GetWeaponOpponent(), 5, 9, DeadlyViperAssassinationSquad.Elle);
-            
-            Opponent bill = new Opponent(90, 60, 5, 10, GetWeaponOpponent(), 7, 9, DeadlyViperAssassinationSquad.Bill);
+            Vernita vernita = new Vernita("Vernita", 80, 2, 1, 5, GetWeaponOpponent(), 2, 5);
 
-            Opponent[] opponents = { orenIshii, vernitaGreen, bud, elle, bill };
+            Budd budd = new Budd("Budd",  60, 3, 1, 5, GetWeaponOpponent(), 2, 6);
+
+            Elle elle = new Elle("Elle", 86, 4, 1, 5, GetWeaponOpponent(), 5, 9);
+
+            Bill bill = new Bill("Bill", 90, 6, 1, 5, GetWeaponOpponent(), 7, 9);
+
+            Oren oren = new Oren("O-Ren", 79, 5, 1, 5, GetWeaponOpponent(), 1, 5);
+
+            Opponent[] opponents = { oren, vernita, budd, elle, bill };
 
             Random rand = new Random();
             int randNbr = rand.Next(opponents.Length);

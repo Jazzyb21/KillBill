@@ -30,7 +30,7 @@ namespace KillBillLibrary
                 "of the Deadly Viper Assassination Squad, " +
                 "including Bill himself.";
 
-            return string.Format("\n-----{0}--------\nLife: {1} of {2}\nHit Chance: {3}%\nWeapon: {4}\nBlock: {5}\nPlayer Description: {6}",
+            return string.Format("\n-----{0}--------\nLife: {1} of {2}\nHit Chance: {3}%\nWeapon: {4}\nBlock: {5}%\nPlayer Description: {6}",
                                     Name, Life, MaxLife, HitChance, EquippedWeapon, Block, playerDescription);
         }
 
@@ -45,9 +45,9 @@ namespace KillBillLibrary
             return damage;
         }
 
-        public override int CalcHitChance()
-        {
-            return base.CalcHitChance() + EquippedWeapon.BonusHitChance;
-        }
+        //public override int CalcHitChance()
+        //{
+        //    return base.CalcHitChance() + EquippedWeapon.BonusHitChance;
+        //}
     }
 }

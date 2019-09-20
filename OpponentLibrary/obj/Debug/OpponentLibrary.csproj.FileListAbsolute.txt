@@ -1,2 +1,9 @@
 C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\obj\Debug\OpponentLibrary.csprojAssemblyReference.cache
 C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\obj\Debug\OpponentLibrary.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\bin\Debug\OpponentLibrary.dll
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\bin\Debug\OpponentLibrary.pdb
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\bin\Debug\KillBillLibrary.dll
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\bin\Debug\KillBillLibrary.pdb
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\obj\Debug\OpponentLibrary.csproj.CopyComplete
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\obj\Debug\OpponentLibrary.dll
+C:\Users\student\Documents\Visual Studio 2017\Projects\02_CSF2\KillBillApplication\KillBill\OpponentLibrary\obj\Debug\OpponentLibrary.pdb

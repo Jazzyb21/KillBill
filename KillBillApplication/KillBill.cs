@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using KillBillLibrary;
+using OpponentLibrary;
 
 namespace KillBillApplication
 {
@@ -12,11 +13,13 @@ namespace KillBillApplication
         static void Main(string[] args)
         {
 
+            
+
             Console.Title = "Kill Bill: Death List 5";
 
             //1. Create player (custom class)
             Weapon getWeapon = GetRandom.GetWeaponPlayer();
-            Player bride = new Player("Beatrix Kiddo", 80, 50, 5, 10, getWeapon);
+            Player bride = new Player("Beatrix Kiddo", 80, 7, 5, 5, getWeapon);
 
             //Print descirption of player
             Console.WriteLine(bride.Name);
@@ -32,7 +35,7 @@ namespace KillBillApplication
                 //TODO 4. create opponent info, randomly select one, if player beats three opponents advance to the ulitmate battle against BIll
                 // create an instance of every oppponent and put them into method and store them in an array to randomly select one
                 Opponent opponent = GetRandom.GetOpponent();
-                Console.WriteLine("\nBeatrix vs. {0}", opponent.OpponentName);
+                Console.WriteLine("\nBeatrix vs. {0}", opponent.Name);
                 
 
                 //5. creating loop for the menu
@@ -41,7 +44,7 @@ namespace KillBillApplication
                 {
                     //6. Menu of decisions on what to do next in the game
                     #region Menu
-                    Console.WriteLine("\nPlease choose an action:\nA) Attack\nB) Block\nR) Run Away\nP) Player Info\nO) Opponenet Info\nX) Exit");
+                    Console.WriteLine("\nPlease choose an action:\nA) Attack\nR) Run Away\nP) Player Info\nO) Opponenet Info\nX) Exit");
 
                     //7. Catch user input
                     ConsoleKey userChoice = Console.ReadKey(true).Key; //captures on character and we don't want the value printed to screen
@@ -53,18 +56,14 @@ namespace KillBillApplication
                     switch (userChoice)
                     {
                         case ConsoleKey.A:
-                            // TODO 10 handle dong battle
+                            // 10 handle doing battle
                             Combat.DoBattle(bride, opponent);
                             if (opponent.Life <= 0)
                             {
                                 //its dead
+                                Console.WriteLine(opponent.Name + " is dead! You win!");
                                 reload = true;
-                            }
-                            // TODO 11 handle if the player wins
-                            break;
-                        case ConsoleKey.B:
-                            //TODO 12 opponent and player gets another attack
-                            
+                            } 
                             break;
                         case ConsoleKey.R:
                             //TODO 13 Oppenent gets another attack
@@ -78,7 +77,7 @@ namespace KillBillApplication
                             Console.WriteLine(bride);
                             break;
                         case ConsoleKey.O:
-                            //TODO 16 need to write opponent info to screen
+                            // 16 need to write opponent info to screen
                             Console.WriteLine(opponent);
                             break;
                         case ConsoleKey.X:

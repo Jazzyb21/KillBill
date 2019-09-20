@@ -54,10 +54,6 @@
       <Project>{73eb19e5-c556-46ce-b636-bfbf75b39a5c}</Project>
       <Name>KillBillLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\OpponentLibrary\OpponentLibrary.csproj">
-      <Project>{39dd372f-009e-4876-8be7-0fb190b24f18}</Project>
-      <Name>OpponentLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
