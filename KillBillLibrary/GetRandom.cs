@@ -83,15 +83,15 @@ namespace KillBillLibrary
         public static Opponent GetOpponent()
         {
 
-            Vernita vernita = new Vernita("Vernita", 80, 2, 1, 5, GetWeaponOpponent(), 2, 5);
+            Vernita vernita = new Vernita("Vernita", 80, 2, 50, 50, GetWeaponOpponent(), 2, 5);
 
-            Budd budd = new Budd("Budd",  60, 3, 1, 5, GetWeaponOpponent(), 2, 6);
+            Budd budd = new Budd("Budd",  60, 3, 50, 50, GetWeaponOpponent(), 2, 6);
 
-            Elle elle = new Elle("Elle", 86, 4, 1, 5, GetWeaponOpponent(), 5, 9);
+            Elle elle = new Elle("Elle", 86, 4, 50, 50, GetWeaponOpponent(), 5, 9);
 
-            Bill bill = new Bill("Bill", 90, 6, 1, 5, GetWeaponOpponent(), 7, 9);
+            Bill bill = new Bill("Bill", 90, 6, 50, 50, GetWeaponOpponent(), 7, 9);
 
-            Oren oren = new Oren("O-Ren", 79, 5, 1, 5, GetWeaponOpponent(), 1, 5);
+            Oren oren = new Oren("O-Ren", 79, 5, 50, 50, GetWeaponOpponent(), 1, 5);
 
             Opponent[] opponents = { oren, vernita, budd, elle, bill };
 

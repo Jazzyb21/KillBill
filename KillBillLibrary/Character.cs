@@ -21,7 +21,7 @@ namespace KillBillLibrary
         public int Life
         {
             get { return _life; }
-            set { _life = value >= 0 && value < MaxLife ? _life = value : value = 1; }
+            set { _life = value >= 0 && value <= MaxLife ? _life = value : value = 1; }
         }
 
         //ctor
@@ -40,7 +40,7 @@ namespace KillBillLibrary
         public virtual int CalcBlock()
         {
             //The virtual keyword allows child classes to override this but they dont have to
-            //IF this is not overridden in a child clas, then the child will use the bas functionality below
+            //IF this is not overridden in a child class, then the child will use the base functionality below
             return Block;
         }
 

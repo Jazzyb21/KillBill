@@ -13,13 +13,11 @@ namespace KillBillApplication
         static void Main(string[] args)
         {
 
-            
-
             Console.Title = "Kill Bill: Death List 5";
 
             //1. Create player (custom class)
             Weapon getWeapon = GetRandom.GetWeaponPlayer();
-            Player bride = new Player("Beatrix Kiddo", 80, 7, 5, 5, getWeapon);
+            Player bride = new Player("Beatrix Kiddo", 80, 7, -10, 100, getWeapon);
 
             //Print descirption of player
             Console.WriteLine(bride.Name);
@@ -66,8 +64,7 @@ namespace KillBillApplication
                             } 
                             break;
                         case ConsoleKey.R:
-                            //TODO 13 Oppenent gets another attack
-                            Console.WriteLine("Retreat!");
+	                        Console.WriteLine("Retreat!");
                             Console.WriteLine($"{opponent.Name} attacks you, as you retreat.");
                             Combat.DoAttack(opponent, bride);
                             reload = true;
@@ -94,7 +91,7 @@ namespace KillBillApplication
                     //TODO 17 check the players life
                     if (bride.Life <= 0)
                     {
-                        Console.WriteLine("You died!"); // player wont die
+                        Console.WriteLine("You died!"); 
                         exit = true;
                     }
 
